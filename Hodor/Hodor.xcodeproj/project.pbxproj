@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0F01781D15EAC800BBEA2C /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01771D15EAC800BBEA2C /* utilities.swift */; };
+		AB0F01791D15EAC800BBEA2C /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01771D15EAC800BBEA2C /* utilities.swift */; };
+		AB0F017A1D15EAC800BBEA2C /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01771D15EAC800BBEA2C /* utilities.swift */; };
+		AB0F017B1D15EAC800BBEA2C /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01771D15EAC800BBEA2C /* utilities.swift */; };
+		AB0F017C1D15EAC800BBEA2C /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01771D15EAC800BBEA2C /* utilities.swift */; };
+		AB0F01851D1614A300BBEA2C /* HDMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01841D1614A300BBEA2C /* HDMessageView.swift */; };
+		AB0F01861D1614A300BBEA2C /* HDMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01841D1614A300BBEA2C /* HDMessageView.swift */; };
+		AB0F01871D1614A300BBEA2C /* HDMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01841D1614A300BBEA2C /* HDMessageView.swift */; };
+		AB0F01881D1614A300BBEA2C /* HDMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01841D1614A300BBEA2C /* HDMessageView.swift */; };
+		AB0F01891D1614A300BBEA2C /* HDMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F01841D1614A300BBEA2C /* HDMessageView.swift */; };
+		AB64C3CC1D16177D00036232 /* HDMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */; };
+		AB64C3CD1D16177D00036232 /* HDMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */; };
+		AB64C3CE1D16177D00036232 /* HDMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */; };
+		AB64C3CF1D16177D00036232 /* HDMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */; };
+		AB64C3D01D16177D00036232 /* HDMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */; };
+		AB78E7AD1D161D6F0034D604 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = AB78E7AC1D161D6F0034D604 /* hodor.png */; };
+		AB78E7AE1D161D6F0034D604 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = AB78E7AC1D161D6F0034D604 /* hodor.png */; };
+		AB78E7AF1D161D6F0034D604 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = AB78E7AC1D161D6F0034D604 /* hodor.png */; };
+		AB78E7B01D161D6F0034D604 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = AB78E7AC1D161D6F0034D604 /* hodor.png */; };
+		AB78E7B11D161D6F0034D604 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = AB78E7AC1D161D6F0034D604 /* hodor.png */; };
+		AB96D1AF1D15D25C00BB8776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1AE1D15D25C00BB8776 /* AppDelegate.swift */; };
+		AB96D1B11D15D25C00BB8776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1B01D15D25C00BB8776 /* ViewController.swift */; };
+		AB96D1B41D15D25C00BB8776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB96D1B21D15D25C00BB8776 /* Main.storyboard */; };
+		AB96D1B71D15D25C00BB8776 /* Hodor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1B51D15D25C00BB8776 /* Hodor.xcdatamodeld */; };
+		AB96D1B91D15D25C00BB8776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB96D1B81D15D25C00BB8776 /* Assets.xcassets */; };
+		AB96D1BC1D15D25C00BB8776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB96D1BA1D15D25C00BB8776 /* LaunchScreen.storyboard */; };
+		AB96D1C71D15D25C00BB8776 /* HodorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1C61D15D25C00BB8776 /* HodorTests.swift */; };
+		AB96D1D21D15D25C00BB8776 /* HodorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1D11D15D25C00BB8776 /* HodorUITests.swift */; };
+		AB96D1E61D15D27700BB8776 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1E51D15D27700BB8776 /* IntentHandler.swift */; };
+		AB96D1EF1D15D27700BB8776 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB96D1EE1D15D27700BB8776 /* IntentsUI.framework */; };
+		AB96D1F21D15D27700BB8776 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D1F11D15D27700BB8776 /* IntentViewController.swift */; };
+		AB96D1F51D15D27700BB8776 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB96D1F31D15D27700BB8776 /* MainInterface.storyboard */; };
+		AB96D1F91D15D27700BB8776 /* IntentExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB96D1EC1D15D27700BB8776 /* IntentExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB96D1FC1D15D27700BB8776 /* IntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB96D1E31D15D27700BB8776 /* IntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB96D2061D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */; };
+		AB96D2071D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */; };
+		AB96D2081D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */; };
+		AB96D2091D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */; };
+		AB96D20A1D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */; };
+		AB96D20D1D15D78B00BB8776 /* HDContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */; };
+		AB96D20E1D15D78B00BB8776 /* HDContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */; };
+		AB96D20F1D15D78B00BB8776 /* HDContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */; };
+		AB96D2101D15D78B00BB8776 /* HDContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */; };
+		AB96D2111D15D78B00BB8776 /* HDContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */; };
+		AB96D2131D15D7B400BB8776 /* HDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2121D15D7B400BB8776 /* HDContact.swift */; };
+		AB96D2141D15D7B400BB8776 /* HDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2121D15D7B400BB8776 /* HDContact.swift */; };
+		AB96D2151D15D7B400BB8776 /* HDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2121D15D7B400BB8776 /* HDContact.swift */; };
+		AB96D2161D15D7B400BB8776 /* HDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2121D15D7B400BB8776 /* HDContact.swift */; };
+		AB96D2171D15D7B400BB8776 /* HDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96D2121D15D7B400BB8776 /* HDContact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB96D1C31D15D25C00BB8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB96D1A31D15D25C00BB8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB96D1AA1D15D25C00BB8776;
+			remoteInfo = Hodor;
+		};
+		AB96D1CE1D15D25C00BB8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB96D1A31D15D25C00BB8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB96D1AA1D15D25C00BB8776;
+			remoteInfo = Hodor;
+		};
+		AB96D1F71D15D27700BB8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB96D1A31D15D25C00BB8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB96D1EB1D15D27700BB8776;
+			remoteInfo = IntentExtensionUI;
+		};
+		AB96D1FA1D15D27700BB8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB96D1A31D15D25C00BB8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB96D1E21D15D27700BB8776;
+			remoteInfo = IntentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB96D2031D15D27700BB8776 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB96D1FC1D15D27700BB8776 /* IntentExtension.appex in Embed App Extensions */,
+				AB96D1F91D15D27700BB8776 /* IntentExtensionUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB0F01771D15EAC800BBEA2C /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		AB0F01841D1614A300BBEA2C /* HDMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDMessageView.swift; sourceTree = "<group>"; };
+		AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDMessageViewController.swift; sourceTree = "<group>"; };
+		AB78E7AC1D161D6F0034D604 /* hodor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hodor.png; sourceTree = "<group>"; };
+		AB96D1AB1D15D25C00BB8776 /* Hodor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hodor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB96D1AE1D15D25C00BB8776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB96D1B01D15D25C00BB8776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB96D1B31D15D25C00BB8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB96D1B61D15D25C00BB8776 /* Hodor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hodor.xcdatamodel; sourceTree = "<group>"; };
+		AB96D1B81D15D25C00BB8776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB96D1BB1D15D25C00BB8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB96D1BD1D15D25C00BB8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB96D1C21D15D25C00BB8776 /* HodorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB96D1C61D15D25C00BB8776 /* HodorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodorTests.swift; sourceTree = "<group>"; };
+		AB96D1C81D15D25C00BB8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB96D1CD1D15D25C00BB8776 /* HodorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HodorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB96D1D11D15D25C00BB8776 /* HodorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HodorUITests.swift; sourceTree = "<group>"; };
+		AB96D1D31D15D25C00BB8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB96D1E31D15D27700BB8776 /* IntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB96D1E51D15D27700BB8776 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		AB96D1E71D15D27700BB8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB96D1EC1D15D27700BB8776 /* IntentExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB96D1EE1D15D27700BB8776 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		AB96D1F11D15D27700BB8776 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		AB96D1F41D15D27700BB8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AB96D1F61D15D27700BB8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDSendMessageIntentHandler.swift; sourceTree = "<group>"; };
+		AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDContactManager.swift; sourceTree = "<group>"; };
+		AB96D2121D15D7B400BB8776 /* HDContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDContact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB96D1A81D15D25C00BB8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1BF1D15D25C00BB8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1CA1D15D25C00BB8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1E01D15D27700BB8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1E91D15D27700BB8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D1EF1D15D27700BB8776 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0F01831D16147900BBEA2C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F01841D1614A300BBEA2C /* HDMessageView.swift */,
+			);
+			name = view;
+			path = ../IntentExtension;
+			sourceTree = "<group>";
+		};
+		AB64C3CA1D16176400036232 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1F11D15D27700BB8776 /* IntentViewController.swift */,
+				AB64C3CB1D16177D00036232 /* HDMessageViewController.swift */,
+				AB78E7AC1D161D6F0034D604 /* hodor.png */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		AB96D1A21D15D25C00BB8776 = {
+			isa = PBXGroup;
+			children = (
+				AB96D1AD1D15D25C00BB8776 /* Hodor */,
+				AB96D1C51D15D25C00BB8776 /* HodorTests */,
+				AB96D1D01D15D25C00BB8776 /* HodorUITests */,
+				AB96D1E41D15D27700BB8776 /* IntentExtension */,
+				AB96D1F01D15D27700BB8776 /* IntentExtensionUI */,
+				AB96D1ED1D15D27700BB8776 /* Frameworks */,
+				AB96D1AC1D15D25C00BB8776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB96D1AC1D15D25C00BB8776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1AB1D15D25C00BB8776 /* Hodor.app */,
+				AB96D1C21D15D25C00BB8776 /* HodorTests.xctest */,
+				AB96D1CD1D15D25C00BB8776 /* HodorUITests.xctest */,
+				AB96D1E31D15D27700BB8776 /* IntentExtension.appex */,
+				AB96D1EC1D15D27700BB8776 /* IntentExtensionUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB96D1AD1D15D25C00BB8776 /* Hodor */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1AE1D15D25C00BB8776 /* AppDelegate.swift */,
+				AB96D1B01D15D25C00BB8776 /* ViewController.swift */,
+				AB96D1B21D15D25C00BB8776 /* Main.storyboard */,
+				AB96D1B81D15D25C00BB8776 /* Assets.xcassets */,
+				AB96D1BA1D15D25C00BB8776 /* LaunchScreen.storyboard */,
+				AB96D1BD1D15D25C00BB8776 /* Info.plist */,
+				AB96D1B51D15D25C00BB8776 /* Hodor.xcdatamodeld */,
+			);
+			path = Hodor;
+			sourceTree = "<group>";
+		};
+		AB96D1C51D15D25C00BB8776 /* HodorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1C61D15D25C00BB8776 /* HodorTests.swift */,
+				AB96D1C81D15D25C00BB8776 /* Info.plist */,
+			);
+			path = HodorTests;
+			sourceTree = "<group>";
+		};
+		AB96D1D01D15D25C00BB8776 /* HodorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1D11D15D25C00BB8776 /* HodorUITests.swift */,
+				AB96D1D31D15D25C00BB8776 /* Info.plist */,
+			);
+			path = HodorUITests;
+			sourceTree = "<group>";
+		};
+		AB96D1E41D15D27700BB8776 /* IntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D2041D15D37800BB8776 /* Hodor */,
+				AB96D1E71D15D27700BB8776 /* Info.plist */,
+			);
+			path = IntentExtension;
+			sourceTree = "<group>";
+		};
+		AB96D1ED1D15D27700BB8776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1EE1D15D27700BB8776 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB96D1F01D15D27700BB8776 /* IntentExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				ABF78EFC1D162BC100C4A16E /* Hodor */,
+				AB96D1F61D15D27700BB8776 /* Info.plist */,
+			);
+			path = IntentExtensionUI;
+			sourceTree = "<group>";
+		};
+		AB96D2041D15D37800BB8776 /* Hodor */ = {
+			isa = PBXGroup;
+			children = (
+				ABF78EFB1D162BB400C4A16E /* handler */,
+				ABF78EFA1D162BAC00C4A16E /* controller */,
+				AB96D20B1D15D77200BB8776 /* Model */,
+			);
+			name = Hodor;
+			sourceTree = "<group>";
+		};
+		AB96D20B1D15D77200BB8776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D20C1D15D78B00BB8776 /* HDContactManager.swift */,
+				AB96D2121D15D7B400BB8776 /* HDContact.swift */,
+				AB0F01771D15EAC800BBEA2C /* utilities.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABF78EFA1D162BAC00C4A16E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D2051D15D3B100BB8776 /* HDSendMessageIntentHandler.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		ABF78EFB1D162BB400C4A16E /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1E51D15D27700BB8776 /* IntentHandler.swift */,
+			);
+			name = handler;
+			sourceTree = "<group>";
+		};
+		ABF78EFC1D162BC100C4A16E /* Hodor */ = {
+			isa = PBXGroup;
+			children = (
+				ABF78EFD1D162BD400C4A16E /* resources */,
+				AB64C3CA1D16176400036232 /* controller */,
+				AB0F01831D16147900BBEA2C /* view */,
+			);
+			name = Hodor;
+			sourceTree = "<group>";
+		};
+		ABF78EFD1D162BD400C4A16E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB96D1F31D15D27700BB8776 /* MainInterface.storyboard */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB96D1AA1D15D25C00BB8776 /* Hodor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96D1D61D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "Hodor" */;
+			buildPhases = (
+				AB96D1A71D15D25C00BB8776 /* Sources */,
+				AB96D1A81D15D25C00BB8776 /* Frameworks */,
+				AB96D1A91D15D25C00BB8776 /* Resources */,
+				AB96D2031D15D27700BB8776 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB96D1F81D15D27700BB8776 /* PBXTargetDependency */,
+				AB96D1FB1D15D27700BB8776 /* PBXTargetDependency */,
+			);
+			name = Hodor;
+			productName = Hodor;
+			productReference = AB96D1AB1D15D25C00BB8776 /* Hodor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB96D1C11D15D25C00BB8776 /* HodorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96D1D91D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "HodorTests" */;
+			buildPhases = (
+				AB96D1BE1D15D25C00BB8776 /* Sources */,
+				AB96D1BF1D15D25C00BB8776 /* Frameworks */,
+				AB96D1C01D15D25C00BB8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB96D1C41D15D25C00BB8776 /* PBXTargetDependency */,
+			);
+			name = HodorTests;
+			productName = HodorTests;
+			productReference = AB96D1C21D15D25C00BB8776 /* HodorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB96D1CC1D15D25C00BB8776 /* HodorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96D1DC1D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "HodorUITests" */;
+			buildPhases = (
+				AB96D1C91D15D25C00BB8776 /* Sources */,
+				AB96D1CA1D15D25C00BB8776 /* Frameworks */,
+				AB96D1CB1D15D25C00BB8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB96D1CF1D15D25C00BB8776 /* PBXTargetDependency */,
+			);
+			name = HodorUITests;
+			productName = HodorUITests;
+			productReference = AB96D1CD1D15D25C00BB8776 /* HodorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AB96D1E21D15D27700BB8776 /* IntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96D2001D15D27700BB8776 /* Build configuration list for PBXNativeTarget "IntentExtension" */;
+			buildPhases = (
+				AB96D1DF1D15D27700BB8776 /* Sources */,
+				AB96D1E01D15D27700BB8776 /* Frameworks */,
+				AB96D1E11D15D27700BB8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentExtension;
+			productName = IntentExtension;
+			productReference = AB96D1E31D15D27700BB8776 /* IntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AB96D1EB1D15D27700BB8776 /* IntentExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB96D1FD1D15D27700BB8776 /* Build configuration list for PBXNativeTarget "IntentExtensionUI" */;
+			buildPhases = (
+				AB96D1E81D15D27700BB8776 /* Sources */,
+				AB96D1E91D15D27700BB8776 /* Frameworks */,
+				AB96D1EA1D15D27700BB8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentExtensionUI;
+			productName = IntentExtensionUI;
+			productReference = AB96D1EC1D15D27700BB8776 /* IntentExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB96D1A31D15D25C00BB8776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = uniqlabs;
+				TargetAttributes = {
+					AB96D1AA1D15D25C00BB8776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W2MHQ39N9M;
+						DevelopmentTeamName = "Roshan Balaji Nindrai SenthilNathan";
+						ProvisioningStyle = Automatic;
+					};
+					AB96D1C11D15D25C00BB8776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W2MHQ39N9M;
+						DevelopmentTeamName = "Roshan Balaji Nindrai SenthilNathan";
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB96D1AA1D15D25C00BB8776;
+					};
+					AB96D1CC1D15D25C00BB8776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W2MHQ39N9M;
+						DevelopmentTeamName = "Roshan Balaji Nindrai SenthilNathan";
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB96D1AA1D15D25C00BB8776;
+					};
+					AB96D1E21D15D27700BB8776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W2MHQ39N9M;
+						DevelopmentTeamName = "Roshan Balaji Nindrai SenthilNathan";
+						ProvisioningStyle = Automatic;
+					};
+					AB96D1EB1D15D27700BB8776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W2MHQ39N9M;
+						DevelopmentTeamName = "Roshan Balaji Nindrai SenthilNathan";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB96D1A61D15D25C00BB8776 /* Build configuration list for PBXProject "Hodor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB96D1A21D15D25C00BB8776;
+			productRefGroup = AB96D1AC1D15D25C00BB8776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB96D1AA1D15D25C00BB8776 /* Hodor */,
+				AB96D1C11D15D25C00BB8776 /* HodorTests */,
+				AB96D1CC1D15D25C00BB8776 /* HodorUITests */,
+				AB96D1E21D15D27700BB8776 /* IntentExtension */,
+				AB96D1EB1D15D27700BB8776 /* IntentExtensionUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB96D1A91D15D25C00BB8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78E7AD1D161D6F0034D604 /* hodor.png in Resources */,
+				AB96D1BC1D15D25C00BB8776 /* LaunchScreen.storyboard in Resources */,
+				AB96D1B91D15D25C00BB8776 /* Assets.xcassets in Resources */,
+				AB96D1B41D15D25C00BB8776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1C01D15D25C00BB8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78E7AE1D161D6F0034D604 /* hodor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1CB1D15D25C00BB8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78E7AF1D161D6F0034D604 /* hodor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1E11D15D27700BB8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78E7B01D161D6F0034D604 /* hodor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1EA1D15D27700BB8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78E7B11D161D6F0034D604 /* hodor.png in Resources */,
+				AB96D1F51D15D27700BB8776 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB96D1A71D15D25C00BB8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D2061D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */,
+				AB0F01781D15EAC800BBEA2C /* utilities.swift in Sources */,
+				AB0F01851D1614A300BBEA2C /* HDMessageView.swift in Sources */,
+				AB64C3CC1D16177D00036232 /* HDMessageViewController.swift in Sources */,
+				AB96D1B71D15D25C00BB8776 /* Hodor.xcdatamodeld in Sources */,
+				AB96D1B11D15D25C00BB8776 /* ViewController.swift in Sources */,
+				AB96D20D1D15D78B00BB8776 /* HDContactManager.swift in Sources */,
+				AB96D2131D15D7B400BB8776 /* HDContact.swift in Sources */,
+				AB96D1AF1D15D25C00BB8776 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1BE1D15D25C00BB8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D20E1D15D78B00BB8776 /* HDContactManager.swift in Sources */,
+				AB64C3CD1D16177D00036232 /* HDMessageViewController.swift in Sources */,
+				AB0F01791D15EAC800BBEA2C /* utilities.swift in Sources */,
+				AB0F01861D1614A300BBEA2C /* HDMessageView.swift in Sources */,
+				AB96D2071D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */,
+				AB96D2141D15D7B400BB8776 /* HDContact.swift in Sources */,
+				AB96D1C71D15D25C00BB8776 /* HodorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1C91D15D25C00BB8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D20F1D15D78B00BB8776 /* HDContactManager.swift in Sources */,
+				AB64C3CE1D16177D00036232 /* HDMessageViewController.swift in Sources */,
+				AB0F017A1D15EAC800BBEA2C /* utilities.swift in Sources */,
+				AB0F01871D1614A300BBEA2C /* HDMessageView.swift in Sources */,
+				AB96D2081D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */,
+				AB96D2151D15D7B400BB8776 /* HDContact.swift in Sources */,
+				AB96D1D21D15D25C00BB8776 /* HodorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1DF1D15D27700BB8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D2101D15D78B00BB8776 /* HDContactManager.swift in Sources */,
+				AB64C3CF1D16177D00036232 /* HDMessageViewController.swift in Sources */,
+				AB0F017B1D15EAC800BBEA2C /* utilities.swift in Sources */,
+				AB0F01881D1614A300BBEA2C /* HDMessageView.swift in Sources */,
+				AB96D2091D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */,
+				AB96D2161D15D7B400BB8776 /* HDContact.swift in Sources */,
+				AB96D1E61D15D27700BB8776 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB96D1E81D15D27700BB8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB96D2111D15D78B00BB8776 /* HDContactManager.swift in Sources */,
+				AB64C3D01D16177D00036232 /* HDMessageViewController.swift in Sources */,
+				AB0F017C1D15EAC800BBEA2C /* utilities.swift in Sources */,
+				AB0F01891D1614A300BBEA2C /* HDMessageView.swift in Sources */,
+				AB96D20A1D15D3B100BB8776 /* HDSendMessageIntentHandler.swift in Sources */,
+				AB96D2171D15D7B400BB8776 /* HDContact.swift in Sources */,
+				AB96D1F21D15D27700BB8776 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB96D1C41D15D25C00BB8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB96D1AA1D15D25C00BB8776 /* Hodor */;
+			targetProxy = AB96D1C31D15D25C00BB8776 /* PBXContainerItemProxy */;
+		};
+		AB96D1CF1D15D25C00BB8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB96D1AA1D15D25C00BB8776 /* Hodor */;
+			targetProxy = AB96D1CE1D15D25C00BB8776 /* PBXContainerItemProxy */;
+		};
+		AB96D1F81D15D27700BB8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB96D1EB1D15D27700BB8776 /* IntentExtensionUI */;
+			targetProxy = AB96D1F71D15D27700BB8776 /* PBXContainerItemProxy */;
+		};
+		AB96D1FB1D15D27700BB8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB96D1E21D15D27700BB8776 /* IntentExtension */;
+			targetProxy = AB96D1FA1D15D27700BB8776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB96D1B21D15D25C00BB8776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB96D1B31D15D25C00BB8776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB96D1BA1D15D25C00BB8776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB96D1BB1D15D25C00BB8776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB96D1F31D15D27700BB8776 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB96D1F41D15D27700BB8776 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB96D1D41D15D25C00BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB96D1D51D15D25C00BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB96D1D71D15D25C00BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hodor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB96D1D81D15D25C00BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hodor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB96D1DA1D15D25C00BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HodorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.HodorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodor.app/Hodor";
+			};
+			name = Debug;
+		};
+		AB96D1DB1D15D25C00BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HodorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.HodorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodor.app/Hodor";
+			};
+			name = Release;
+		};
+		AB96D1DD1D15D25C00BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HodorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.HodorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hodor;
+			};
+			name = Debug;
+		};
+		AB96D1DE1D15D25C00BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HodorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.HodorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hodor;
+			};
+			name = Release;
+		};
+		AB96D1FE1D15D27700BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB96D1FF1D15D27700BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB96D2011D15D27700BB8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB96D2021D15D27700BB8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniqlabs.Hodor.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB96D1A61D15D25C00BB8776 /* Build configuration list for PBXProject "Hodor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D1D41D15D25C00BB8776 /* Debug */,
+				AB96D1D51D15D25C00BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96D1D61D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "Hodor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D1D71D15D25C00BB8776 /* Debug */,
+				AB96D1D81D15D25C00BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96D1D91D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "HodorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D1DA1D15D25C00BB8776 /* Debug */,
+				AB96D1DB1D15D25C00BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96D1DC1D15D25C00BB8776 /* Build configuration list for PBXNativeTarget "HodorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D1DD1D15D25C00BB8776 /* Debug */,
+				AB96D1DE1D15D25C00BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96D1FD1D15D27700BB8776 /* Build configuration list for PBXNativeTarget "IntentExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D1FE1D15D27700BB8776 /* Debug */,
+				AB96D1FF1D15D27700BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB96D2001D15D27700BB8776 /* Build configuration list for PBXNativeTarget "IntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB96D2011D15D27700BB8776 /* Debug */,
+				AB96D2021D15D27700BB8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB96D1B51D15D25C00BB8776 /* Hodor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB96D1B61D15D25C00BB8776 /* Hodor.xcdatamodel */,
+			);
+			currentVersion = AB96D1B61D15D25C00BB8776 /* Hodor.xcdatamodel */;
+			path = Hodor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB96D1A31D15D25C00BB8776 /* Project object */;
+}
